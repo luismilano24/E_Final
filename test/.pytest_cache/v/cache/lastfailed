@@ -1,5 +1,0 @@
-{
-  "test_login.py::test_login_validation": true,
-  "test_inventario.py::test_inventory": true,
-  "test_login_usuario_invalido.py::test_login": true
-}
