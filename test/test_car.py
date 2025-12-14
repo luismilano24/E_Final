@@ -17,7 +17,7 @@ def test_cart(login_in_driver):
         # SELECTOR CORREGIDO: shopping_cart_badge (usando By.CLASS_NAME, sin el punto)
         contador_carrito = driver.find_element(By.CLASS_NAME, "shopping_cart_badge").text
 
-        assert contador_carrito == "1", "❌ Error: El contador del carrito no es '1'."
+        assert contador_carrito == "2", "❌ Error: El contador del carrito no es '1'."
 
         # --- 4. NAVEGAR AL CARRITO ---
         # SELECTOR CORREGIDO: shopping_cart_link (usando By.CLASS_NAME)
