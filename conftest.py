@@ -70,4 +70,5 @@ def pytest_runtest_makereport(item, call):
             file_name = target / f"{report.when}_{nombre_base_del_test}_{timestamp_unix}.png"
             
             driver.save_screenshot(str(file_name))
+#permite realizar el screenshots con nombre del test
         
